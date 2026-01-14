@@ -15,7 +15,7 @@ const ProjectsSection = () => {
       description: "Herramienta web para generar contraseñas seguras personalizadas con opciones de longitud, símbolos, números y mayúsculas. Diseñada para mejorar la seguridad de cuentas.",
       tags: ["Python", "Flask", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/A-nieto96/Password_generator.git",
-      demo: "#",
+      demo: "https://passwordgenerator-production-0240.up.railway.app/",
       featured: false,
     },
     {
@@ -23,7 +23,7 @@ const ProjectsSection = () => {
       description: "Generador de códigos QR rápido y práctico para negocios o uso personal. Permite crear códigos escaneables para enlaces, textos o información de contacto.",
       tags: ["Python", "Flask", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/A-nieto96/Generador_QR.git",
-      demo: "#",
+      demo: "https://generadorqr-production.up.railway.app/",
       featured: false,
     },
   ];
