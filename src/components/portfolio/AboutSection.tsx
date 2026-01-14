@@ -39,7 +39,7 @@ const AboutSection = () => {
             {/* Text Content */}
             <div>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                Soy un desarrollador web en constante aprendizaje, apasionado por 
+                Soy un analista y desarrollador de software en constante aprendizaje, apasionado por 
                 la tecnología y el diseño. Me encanta crear soluciones digitales 
                 que combinen funcionalidad con estética.
               </p>
