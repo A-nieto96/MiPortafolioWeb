@@ -11,7 +11,7 @@ const SkillsSection = () => {
   ];
 
   const tools = [
-    "VSCode", "GitHub", "Terminal", "Docker", "Git"
+    "VSCode", "Git","GitHub", "Terminal", "Docker", 
   ];
 
   return (
