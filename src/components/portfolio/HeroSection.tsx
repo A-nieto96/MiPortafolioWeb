@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, MessageCircle } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -68,7 +68,12 @@ const HeroSection = () => {
             {[
               { icon: Github, href: "https://github.com/A-nieto96", label: "GitHub" },
               { icon: Linkedin, href: "https://linkedin.com/in/adrian-nieto-4897763a5", label: "LinkedIn" },
-              { icon: Mail, href: "Mailto:adrianfnieto1996@hotmail.com", label: "Email" },
+              { 
+                icon: MessageCircle, 
+                href: "https://wa.me/573164013575?text=Hola%2C%20quiero%20contactarte%20desde%20tu%20portafolio", 
+                label: "WhatsApp" 
+              },
+              //{ icon: Mail, href: "Mailto:adrianfnieto1996@hotmail.com", label: "Email" },
             ].map((social, index) => (
               <motion.a
                 key={social.label}
