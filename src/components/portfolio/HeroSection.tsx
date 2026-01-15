@@ -67,7 +67,7 @@ const HeroSection = () => {
           >
             {[
               { icon: Github, href: "https://github.com/A-nieto96", label: "GitHub" },
-              { icon: Linkedin, href: "https://www.linkedin.com/in/adrian-felipe-nieto-maestre-4897763a5/", label: "LinkedIn" },
+              { icon: Linkedin, href: "www.linkedin.com/in/adrian-nieto-4897763a5", label: "LinkedIn" },
               { icon: Mail, href: "Mailto:adrianfnieto1996@hotmail.com", label: "Email" },
             ].map((social, index) => (
               <motion.a
