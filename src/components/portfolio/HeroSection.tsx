@@ -90,7 +90,7 @@ const HeroSection = () => {
 
           {/* CTA Button */}
           <motion.a
-            href="#proyectos"
+            href="https://cotizadorwebadriannieto.vercel.app/"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7 }}
@@ -99,7 +99,7 @@ const HeroSection = () => {
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-primary-foreground glow-box transition-all"
             style={{ background: "var(--gradient-primary)" }}
           >
-            Ver mis proyectos
+            Cotiza tu web
             <ArrowDown className="w-4 h-4 animate-bounce" />
           </motion.a>
         </motion.div>

@@ -27,7 +27,7 @@ const ContactSection = () => {
     `Nombre: ${formData.name}\nEmail: ${formData.email}\n\nMensaje:\n${formData.message}`
   );
 
-  window.location.href = `mailto:adrianfnieto1996@hotmail.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:nietopc7715@outlook.com?subject=${subject}&body=${body}`;
 
   setFormData({ name: "", email: "", message: "" });
 };
@@ -75,7 +75,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-medium text-foreground">adrianfnieto1996@hotmail.com</p>
+                  <p className="font-medium text-foreground">nietopc7715@outlook.com</p>
                 </div>
               </motion.div>
 
