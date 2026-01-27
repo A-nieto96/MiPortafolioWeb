@@ -99,7 +99,7 @@ const HeroSection = () => {
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-primary-foreground glow-box transition-all"
             style={{ background: "var(--gradient-primary)" }}
           >
-            Cotiza tu web
+            Cotiza tu sitio web
             <ArrowDown className="w-4 h-4 animate-bounce" />
           </motion.a>
         </motion.div>
